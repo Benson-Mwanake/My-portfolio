@@ -21,8 +21,8 @@ const socials = [
   {
     icon: Mail,
     label: "Email",
-    href: "mailto:you@gmail.com",
-    handle: "you@gmail.com",
+    href: "mailto:bensonmwanake79@gmail.com",
+    handle: "bensonmwanake79@gmail.com",
   },
   {
     icon: Phone,
