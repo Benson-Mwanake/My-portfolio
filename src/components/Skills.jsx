@@ -9,7 +9,6 @@ const skillCategories = [
       "HTML5",
       "CSS3",
       "Tailwind CSS",
-      "TypeScript",
       "Responsive Design",
     ],
   },
@@ -29,6 +28,17 @@ const skillCategories = [
   {
     title: "Tools & Workflow",
     skills: ["Git / GitHub", "VS Code", "Postman", "Netlify / Render", "npm"],
+  },
+  {
+    title: "Backend Fundamentals",
+    skills: [
+      "Python",
+      "Flask",
+      "REST APIs",
+      "SQL / PostgreSQL",
+      "Authentication Basics",
+      "CRUD Architecture",
+    ],
   },
 ];
 
