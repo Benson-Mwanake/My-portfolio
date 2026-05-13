@@ -1,17 +1,82 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern developer portfolio showcasing my work as a Full-Stack Software Engineer with a focus on frontend development, UI engineering, and building production-ready web applications.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Site
 
-## React Compiler
+[https://your-portfolio-link.com](https://your-portfolio-link.com)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## About
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# My-portfolio
+I am a Full-Stack Software Engineering graduate specializing in frontend development using React, JavaScript, and modern UI frameworks. I focus on building clean, responsive, and performant user interfaces that solve real-world problems.
+
+My current goal is to grow as a professional frontend engineer and contribute to impactful products while continuously improving my design and engineering skills.
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* React
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Tailwind CSS
+* Framer Motion
+
+### Backend Knowledge
+
+* Python
+* Flask
+* REST APIs
+* Sql
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+* Figma
+
+---
+
+
+## Setup Instructions
+
+Clone the repository:
+
+```
+git clone git@github.com:Benson-Mwanake/My-portfolio.git
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the development server:
+
+```
+npm run dev
+```
+
+---
+
+## Future Improvements
+
+* Add blog section
+* Integrate backend contact form
+* Improve SEO optimization
+* Add CMS for dynamic project updates
+
+---
+
+## Contact
+
+Email: [bensonmwanake79@example.com](mailto:bensonmwanake79@example.com)
