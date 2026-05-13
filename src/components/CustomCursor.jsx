@@ -4,13 +4,19 @@ import { motion } from "framer-motion";
 const CustomCursor = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isHovering, setIsHovering] = useState(false);
+  const [enabled, setEnabled] = useState(true);
 
   useEffect(() => {
+    const isTouchDevice =
+      "ontouchstart" in window || navigator.maxTouchPoints > 0;
+
+    if (isTouchDevice) {
+      setEnabled(false);
+      return;
+    }
+
     const updateMousePosition = (e) => {
-      setMousePosition({
-        x: e.clientX,
-        y: e.clientY,
-      });
+      setMousePosition({ x: e.clientX, y: e.clientY });
     };
 
     const handleHover = (e) => {
@@ -36,6 +42,8 @@ const CustomCursor = () => {
       window.removeEventListener("mouseover", handleHover);
     };
   }, []);
+
+  if (!enabled) return null;
 
   return (
     <>
