@@ -18,8 +18,8 @@ export default {
       },
 
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
         display: ["Playfair Display", "serif"],
+        sans: ["Inter", "sans-serif"],
       },
     },
   },
