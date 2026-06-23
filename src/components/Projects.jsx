@@ -9,6 +9,25 @@ import {
 
 const projects = [
   {
+    title: "MobiBridge",
+    category: "Healthcare Logistics Coordination Platform",
+    image: "/images/mobibridge.png",
+    description:
+      "Designed and built the public-facing platform for MobiBridge, a healthcare logistics coordination system focused on mobility aid delivery. The project is currently in the research and validation stage, exploring workflows that connect clinics, NGOs, rehabilitation programs, and field teams through a shared operational process.",
+    tech: [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "UI/UX Design",
+      "System Architecture",
+      "Workflow Design",
+      "Healthcare Logistics",
+    ],
+    color: "from-emerald-500/35 via-teal-500/20 to-cyan-500/10",
+    github: "https://github.com/Benson-Mwanake/mobibridge",
+    live: "https://mobibridge.health",
+  },
+  {
     title: "AfyaLink KE",
     category: "Healthcare Dashboard Platform",
     image: "/images/afyalink.png",
