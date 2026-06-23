@@ -24,8 +24,8 @@ const projects = [
       "Healthcare Logistics",
     ],
     color: "from-emerald-500/35 via-teal-500/20 to-cyan-500/10",
-    github: "https://github.com/Benson-Mwanake/mobibridge",
-    live: "https://mobibridge.health",
+    github: "https://github.com/Benson-Mwanake/MobiBridge.git",
+    live: "https://mobibridge.netlify.app/",
   },
   {
     title: "AfyaLink KE",
