@@ -25,7 +25,7 @@ const projects = [
     ],
     color: "from-emerald-500/35 via-teal-500/20 to-cyan-500/10",
     github: "https://github.com/Benson-Mwanake/MobiBridge.git",
-    live: "https://mobibridge.netlify.app/",
+    live: "https://mobibridge.co.ke",
   },
   {
     title: "AfyaLink KE",
